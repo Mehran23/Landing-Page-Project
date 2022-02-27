@@ -1,0 +1,132 @@
+.spacer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header {
+    height: 70px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0px ;
+}
+
+.container-1, .text-1{
+    background-color: #1F2937;
+    color: white;
+    height: 300px;
+}
+
+.text-1 h1 {
+    margin: 0;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container-2{
+    height: 300px;
+}
+
+.container-2 h1 {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    
+    margin: 32px;
+}
+
+.image {
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 40px;
+}
+
+.container-3 {
+    position: relative;
+    background-color: #E5E7EB;
+    height: 300px;
+}
+
+.quote-box {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 150px;
+}
+
+.quote {
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    float: right;
+    font-weight: bold;
+}
+
+.container-4 {
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 100px;
+    margin: 50px 100px;
+    border-radius: 10px;
+}
+
+.container-4 button {
+    display: inline-block;
+    float: right;
+    margin-top: -25px;
+    border: solid 1px white;
+}
+
+.signup-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.signup-text {
+    margin: 0;
+    font-size: 15px;
+}
